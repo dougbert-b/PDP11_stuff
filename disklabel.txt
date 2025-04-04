@@ -1,0 +1,24 @@
+# /dev//rxp0a:
+type: SMD
+disk: SMD
+label: DEFAULT
+flags:
+bytes/sector: 512
+sectors/track: 50
+tracks/cylinder: 32
+sectors/cylinder: 1600
+cylinders: 630
+rpm: 3600
+interleave: 1
+trackskew: 0
+cylinderskew: 0
+headswitch: 0		# milliseconds
+track-to-track seek: 0	# milliseconds
+drivedata: 1 
+
+4 partitions:
+#        size   offset    fstype   [fsize bsize]
+  a:    25600        0   2.11BSD     1024  1024 	# (Cyl.    0 - 15)
+  b:    24000    25600      swap                    	# (Cyl.   16 - 30)
+  c:   400000    49600   2.11BSD     1024  1024 	# (Cyl.   31 - 280)
+  d:   552000   449600   2.11BSD     1024  1024 	# (Cyl.  281 - 625)

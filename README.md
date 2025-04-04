@@ -24,5 +24,12 @@ Here is how you can use it:
 
 5: Copy my new disk image to a SD card (the same way you did it in step 2 above), and boot it up!
 
-6: I hagly recommend getting Ethernet networking running on the PDP2011 - it makes 2.11 BSD Unix much easier to use.  I used this Ethernet interface board, which PDP2011 supports out-of-the-box: https://www.olimex.com/Products/Modules/Ethernet/MOD-ENC624J600/
+6: I highly recommend getting Ethernet networking running on the PDP2011 - it makes 2.11 BSD Unix much easier to use.  I used this Ethernet interface board, which PDP2011 supports out-of-the-box: https://www.olimex.com/Products/Modules/Ethernet/MOD-ENC624J600/
+
+
+If you ever feel like building a new Unix image from a 2.11 BSD distribution tape, you can use my file PDP2011.config as a starting point.
+I based my build on the distribution tape image at https://www.tuhs.org/Archive/Distributions/UCB/2.11BSD-patch481/.
+I followed Sytse's excellent instructions at https://pdp2011.sytse.net/wordpress/howto/2-11bsd-rp06/, and the entire process was much less difficult than I expected.
+Of course you have to replace all usages of 'rp06' with 'rp07'.  You also have to decide what your disk partition arrangement
+will be.  I did this sort of arbitrarily - you can find a description of it in the file disklabel.txt.  
 

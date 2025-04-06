@@ -16,9 +16,10 @@ headswitch: 0		# milliseconds
 track-to-track seek: 0	# milliseconds
 drivedata: 1 
 
-4 partitions:
+5 partitions:
 #        size   offset    fstype   [fsize bsize]
-  a:    25600        0   2.11BSD     1024  1024 	# (Cyl.    0 - 15)
-  b:    24000    25600      swap                    	# (Cyl.   16 - 30)
-  c:   400000    49600   2.11BSD     1024  1024 	# (Cyl.   31 - 280)
-  d:   552000   449600   2.11BSD     1024  1024 	# (Cyl.  281 - 625)
+  a:    16000        0   2.11BSD     1024  1024 	# (Cyl.    0 - 9)
+  b:    16000    16000      swap                    	# (Cyl.   10 - 19)
+  c:   640000    32000   2.11BSD     1024  1024 	# (Cyl.   20 - 419)
+  d:    16000   672000   2.11BSD     1024  1024 	# (Cyl.  420 - 429)
+  e:   320000   688000   2.11BSD     1024  1024 	# (Cyl.  430 - 629)

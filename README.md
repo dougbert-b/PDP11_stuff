@@ -16,7 +16,7 @@ Here is how you can use it:
 
 1: Get PDP2011 running, on a CYC1000 board or some other suitable FPGA board.  The author provides excellent documentation at https://pdp2011.sytse.net
 
-2: Ensure that the RP06 drive actually works on your system, using Sytse's 2.11 BSD image or one of the other opersting system images he has provided.
+2: Ensure that the RP06 drive actually works on your system, using Sytse's 2.11 BSD image or one of the other operating system images he has provided.
 
 3: You will need to rebuild PDP2011, so download and install the (free) Quartus Lite FPGA development system from https://www.intel.com/content/www/us/en/products/details/fpga/development-tools/quartus-prime/resource.html
 

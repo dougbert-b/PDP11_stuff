@@ -30,6 +30,6 @@ Here is how you can use it:
 If you ever feel like building a new Unix image from a 2.11 BSD distribution tape, you can use my file PDP2011.config as a starting point.
 I based my build on the distribution tape image at https://www.tuhs.org/Archive/Distributions/UCB/2.11BSD-patch481/.
 I followed Sytse's excellent instructions at https://pdp2011.sytse.net/wordpress/howto/2-11bsd-rp06/, and the entire process was much less difficult than I expected.
-Of course you have to replace all usages of 'rp06' with 'rp07'.  You also have to decide what your disk partition arrangement
+Of course you have to replace all usages of 'rp06' with 'rp07', and use the correct rp07-specific boot program.  You also have to decide what your disk partition arrangement
 will be.  The partitions here were suggested by Sytse - you can find a description of them in the file disklabel.txt.  
 

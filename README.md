@@ -24,7 +24,7 @@ Here is how you can use it:
 
 5: Copy my new disk image to a SD card (the same way you did it in step 2 above), and boot it up!
 
-6: I highly recommend getting Ethernet networking running on the PDP2011 - it makes 2.11 BSD Unix much easier to use.  I used this Ethernet interface board, which PDP2011 supports out-of-the-box: https://www.olimex.com/Products/Modules/Ethernet/MOD-ENC624J600/
+6: I highly recommend getting Ethernet networking running on the PDP2011 - it makes 2.11 BSD Unix much easier to use.  I used this Ethernet interface board, which PDP2011 supports out-of-the-box: https://www.olimex.com/Products/Modules/Ethernet/MOD-ENC624J600/.  I 3d-printed a little box to hold the board - it fits within the PiDP-11 case.
 
 
 If you ever feel like building a new Unix image from a 2.11 BSD distribution tape, you can use my file PDP2011.config as a starting point.

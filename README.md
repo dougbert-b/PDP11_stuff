@@ -33,3 +33,11 @@ I followed Sytse's excellent instructions at https://pdp2011.sytse.net/wordpress
 Of course you have to replace all usages of 'rp06' with 'rp07', and use the correct rp07-specific boot program.  You also have to decide what your disk partition arrangement
 will be.  The partitions here were suggested by Sytse - you can find a description of them in the file disklabel.txt.  
 
+# The PDP2011 board installed in teh PiDP
+
+![Alt text](Photos/pidp11_inside.jpg?raw=true "interior of pidp11")
+
+
+
+
+
